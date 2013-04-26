@@ -41,8 +41,6 @@ class Assets {
 		
 		if (!initialized) {
 			
-			resourceClasses.set ("assets/Boogaloo-Regular.ttf", NME_assets_boogaloo_regular_ttf);
-			resourceTypes.set ("assets/Boogaloo-Regular.ttf", "font");
 			resourceClasses.set ("assets/data/autotiles.png", NME_assets_data_autotiles_png);
 			resourceTypes.set ("assets/data/autotiles.png", "image");
 			resourceClasses.set ("assets/data/autotiles_alt.png", NME_assets_data_autotiles_alt_png);
@@ -115,56 +113,6 @@ class Assets {
 			resourceTypes.set ("assets/data/vcr/stop.png", "image");
 			resourceClasses.set ("assets/data/vis/bounds.png", NME_assets_data_vis_bounds_png);
 			resourceTypes.set ("assets/data/vis/bounds.png", "image");
-			resourceClasses.set ("assets/images/background.pdn", NME_assets_images_background_pdn);
-			resourceTypes.set ("assets/images/background.pdn", "binary");
-			resourceClasses.set ("assets/images/background.png", NME_assets_images_background_png);
-			resourceTypes.set ("assets/images/background.png", "image");
-			resourceClasses.set ("assets/images/burnt-potato.png", NME_assets_images_burnt_potato_png);
-			resourceTypes.set ("assets/images/burnt-potato.png", "image");
-			resourceClasses.set ("assets/images/crosshairs.png", NME_assets_images_crosshairs_png);
-			resourceTypes.set ("assets/images/crosshairs.png", "image");
-			resourceClasses.set ("assets/images/fire.png", NME_assets_images_fire_png);
-			resourceTypes.set ("assets/images/fire.png", "image");
-			resourceClasses.set ("assets/images/game-over.pdn", NME_assets_images_game_over_pdn);
-			resourceTypes.set ("assets/images/game-over.pdn", "binary");
-			resourceClasses.set ("assets/images/game-over.png", NME_assets_images_game_over_png);
-			resourceTypes.set ("assets/images/game-over.png", "image");
-			resourceClasses.set ("assets/images/inanimate-potato.png", NME_assets_images_inanimate_potato_png);
-			resourceTypes.set ("assets/images/inanimate-potato.png", "image");
-			resourceClasses.set ("assets/images/katana.png", NME_assets_images_katana_png);
-			resourceTypes.set ("assets/images/katana.png", "image");
-			resourceClasses.set ("assets/images/knife.png", NME_assets_images_knife_png);
-			resourceTypes.set ("assets/images/knife.png", "image");
-			resourceClasses.set ("assets/images/ninja.png", NME_assets_images_ninja_png);
-			resourceTypes.set ("assets/images/ninja.png", "image");
-			resourceClasses.set ("assets/images/potato-gibs.png", NME_assets_images_potato_gibs_png);
-			resourceTypes.set ("assets/images/potato-gibs.png", "image");
-			resourceClasses.set ("assets/images/potato-monster.png", NME_assets_images_potato_monster_png);
-			resourceTypes.set ("assets/images/potato-monster.png", "image");
-			resourceClasses.set ("assets/images/potato.png", NME_assets_images_potato_png);
-			resourceTypes.set ("assets/images/potato.png", "image");
-			resourceClasses.set ("assets/images/simple-gameover.png", NME_assets_images_simple_gameover_png);
-			resourceTypes.set ("assets/images/simple-gameover.png", "image");
-			resourceClasses.set ("assets/images/title-screen.pdn", NME_assets_images_title_screen_pdn);
-			resourceTypes.set ("assets/images/title-screen.pdn", "binary");
-			resourceClasses.set ("assets/images/title-screen.png", NME_assets_images_title_screen_png);
-			resourceTypes.set ("assets/images/title-screen.png", "image");
-			resourceClasses.set ("assets/images/victim0.png", NME_assets_images_victim0_png);
-			resourceTypes.set ("assets/images/victim0.png", "image");
-			resourceClasses.set ("assets/images/victim1.png", NME_assets_images_victim1_png);
-			resourceTypes.set ("assets/images/victim1.png", "image");
-			resourceClasses.set ("assets/images/victim2.png", NME_assets_images_victim2_png);
-			resourceTypes.set ("assets/images/victim2.png", "image");
-			resourceClasses.set ("assets/images/victim3.png", NME_assets_images_victim3_png);
-			resourceTypes.set ("assets/images/victim3.png", "image");
-			resourceClasses.set ("assets/images/victim4.png", NME_assets_images_victim4_png);
-			resourceTypes.set ("assets/images/victim4.png", "image");
-			resourceClasses.set ("assets/images/victim5.png", NME_assets_images_victim5_png);
-			resourceTypes.set ("assets/images/victim5.png", "image");
-			resourceClasses.set ("assets/images/victim6.png", NME_assets_images_victim6_png);
-			resourceTypes.set ("assets/images/victim6.png", "image");
-			resourceClasses.set ("assets/images/victim7.png", NME_assets_images_victim7_png);
-			resourceTypes.set ("assets/images/victim7.png", "image");
 			
 			
 			initialized = true;

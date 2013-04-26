@@ -97,11 +97,6 @@ class ApplicationMain {
 	public static function getAsset (inName:String):Dynamic {
 		
 		
-		if (inName=="assets/Boogaloo-Regular.ttf")
-			 
-			 return Assets.getFont ("assets/Boogaloo-Regular.ttf");
-		 
-		
 		if (inName=="assets/data/autotiles.png")
 			 
             return Assets.getBitmapData ("assets/data/autotiles.png");
@@ -282,131 +277,6 @@ class ApplicationMain {
             return Assets.getBitmapData ("assets/data/vis/bounds.png");
          
 		
-		if (inName=="assets/images/background.pdn")
-			 
-            return Assets.getBytes ("assets/images/background.pdn");
-         
-		
-		if (inName=="assets/images/background.png")
-			 
-            return Assets.getBitmapData ("assets/images/background.png");
-         
-		
-		if (inName=="assets/images/burnt-potato.png")
-			 
-            return Assets.getBitmapData ("assets/images/burnt-potato.png");
-         
-		
-		if (inName=="assets/images/crosshairs.png")
-			 
-            return Assets.getBitmapData ("assets/images/crosshairs.png");
-         
-		
-		if (inName=="assets/images/fire.png")
-			 
-            return Assets.getBitmapData ("assets/images/fire.png");
-         
-		
-		if (inName=="assets/images/game-over.pdn")
-			 
-            return Assets.getBytes ("assets/images/game-over.pdn");
-         
-		
-		if (inName=="assets/images/game-over.png")
-			 
-            return Assets.getBitmapData ("assets/images/game-over.png");
-         
-		
-		if (inName=="assets/images/inanimate-potato.png")
-			 
-            return Assets.getBitmapData ("assets/images/inanimate-potato.png");
-         
-		
-		if (inName=="assets/images/katana.png")
-			 
-            return Assets.getBitmapData ("assets/images/katana.png");
-         
-		
-		if (inName=="assets/images/knife.png")
-			 
-            return Assets.getBitmapData ("assets/images/knife.png");
-         
-		
-		if (inName=="assets/images/ninja.png")
-			 
-            return Assets.getBitmapData ("assets/images/ninja.png");
-         
-		
-		if (inName=="assets/images/potato-gibs.png")
-			 
-            return Assets.getBitmapData ("assets/images/potato-gibs.png");
-         
-		
-		if (inName=="assets/images/potato-monster.png")
-			 
-            return Assets.getBitmapData ("assets/images/potato-monster.png");
-         
-		
-		if (inName=="assets/images/potato.png")
-			 
-            return Assets.getBitmapData ("assets/images/potato.png");
-         
-		
-		if (inName=="assets/images/simple-gameover.png")
-			 
-            return Assets.getBitmapData ("assets/images/simple-gameover.png");
-         
-		
-		if (inName=="assets/images/title-screen.pdn")
-			 
-            return Assets.getBytes ("assets/images/title-screen.pdn");
-         
-		
-		if (inName=="assets/images/title-screen.png")
-			 
-            return Assets.getBitmapData ("assets/images/title-screen.png");
-         
-		
-		if (inName=="assets/images/victim0.png")
-			 
-            return Assets.getBitmapData ("assets/images/victim0.png");
-         
-		
-		if (inName=="assets/images/victim1.png")
-			 
-            return Assets.getBitmapData ("assets/images/victim1.png");
-         
-		
-		if (inName=="assets/images/victim2.png")
-			 
-            return Assets.getBitmapData ("assets/images/victim2.png");
-         
-		
-		if (inName=="assets/images/victim3.png")
-			 
-            return Assets.getBitmapData ("assets/images/victim3.png");
-         
-		
-		if (inName=="assets/images/victim4.png")
-			 
-            return Assets.getBitmapData ("assets/images/victim4.png");
-         
-		
-		if (inName=="assets/images/victim5.png")
-			 
-            return Assets.getBitmapData ("assets/images/victim5.png");
-         
-		
-		if (inName=="assets/images/victim6.png")
-			 
-            return Assets.getBitmapData ("assets/images/victim6.png");
-         
-		
-		if (inName=="assets/images/victim7.png")
-			 
-            return Assets.getBitmapData ("assets/images/victim7.png");
-         
-		
 		
 		return null;
 		
@@ -426,7 +296,6 @@ class ApplicationMain {
 	
 }
 
-class NME_assets_boogaloo_regular_ttf extends nme.text.Font { }
 class NME_assets_data_autotiles_png extends nme.display.BitmapData { public function new () { super (0, 0); } }
 class NME_assets_data_autotiles_alt_png extends nme.display.BitmapData { public function new () { super (0, 0); } }
 class NME_assets_data_base_png extends nme.display.BitmapData { public function new () { super (0, 0); } }
@@ -463,31 +332,6 @@ class NME_assets_data_vcr_restart_png extends nme.display.BitmapData { public fu
 class NME_assets_data_vcr_step_png extends nme.display.BitmapData { public function new () { super (0, 0); } }
 class NME_assets_data_vcr_stop_png extends nme.display.BitmapData { public function new () { super (0, 0); } }
 class NME_assets_data_vis_bounds_png extends nme.display.BitmapData { public function new () { super (0, 0); } }
-class NME_assets_images_background_pdn extends nme.utils.ByteArray { }
-class NME_assets_images_background_png extends nme.display.BitmapData { public function new () { super (0, 0); } }
-class NME_assets_images_burnt_potato_png extends nme.display.BitmapData { public function new () { super (0, 0); } }
-class NME_assets_images_crosshairs_png extends nme.display.BitmapData { public function new () { super (0, 0); } }
-class NME_assets_images_fire_png extends nme.display.BitmapData { public function new () { super (0, 0); } }
-class NME_assets_images_game_over_pdn extends nme.utils.ByteArray { }
-class NME_assets_images_game_over_png extends nme.display.BitmapData { public function new () { super (0, 0); } }
-class NME_assets_images_inanimate_potato_png extends nme.display.BitmapData { public function new () { super (0, 0); } }
-class NME_assets_images_katana_png extends nme.display.BitmapData { public function new () { super (0, 0); } }
-class NME_assets_images_knife_png extends nme.display.BitmapData { public function new () { super (0, 0); } }
-class NME_assets_images_ninja_png extends nme.display.BitmapData { public function new () { super (0, 0); } }
-class NME_assets_images_potato_gibs_png extends nme.display.BitmapData { public function new () { super (0, 0); } }
-class NME_assets_images_potato_monster_png extends nme.display.BitmapData { public function new () { super (0, 0); } }
-class NME_assets_images_potato_png extends nme.display.BitmapData { public function new () { super (0, 0); } }
-class NME_assets_images_simple_gameover_png extends nme.display.BitmapData { public function new () { super (0, 0); } }
-class NME_assets_images_title_screen_pdn extends nme.utils.ByteArray { }
-class NME_assets_images_title_screen_png extends nme.display.BitmapData { public function new () { super (0, 0); } }
-class NME_assets_images_victim0_png extends nme.display.BitmapData { public function new () { super (0, 0); } }
-class NME_assets_images_victim1_png extends nme.display.BitmapData { public function new () { super (0, 0); } }
-class NME_assets_images_victim2_png extends nme.display.BitmapData { public function new () { super (0, 0); } }
-class NME_assets_images_victim3_png extends nme.display.BitmapData { public function new () { super (0, 0); } }
-class NME_assets_images_victim4_png extends nme.display.BitmapData { public function new () { super (0, 0); } }
-class NME_assets_images_victim5_png extends nme.display.BitmapData { public function new () { super (0, 0); } }
-class NME_assets_images_victim6_png extends nme.display.BitmapData { public function new () { super (0, 0); } }
-class NME_assets_images_victim7_png extends nme.display.BitmapData { public function new () { super (0, 0); } }
 
 
 #else

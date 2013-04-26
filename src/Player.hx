@@ -7,7 +7,7 @@ class Player extends FlxSprite {
     public var walkSpeed:Float = 1.2;
     public function new(x:Float, y:Float) {
         super(x, y);
-        loadGraphic(Assets.getBitmapData("assets/images/ninja.png"), true, true);
+        loadGraphic(Assets.getBitmapData("assets/images/player.png"), true, true);
         addAnimation("standing", [0], 10);
         addAnimation("walking", [1,0], 10);
     }
@@ -37,13 +37,9 @@ class Player extends FlxSprite {
         if (!left && !right && !up && !down) {
             play("standing");
         }
-        if (x < PlayState.LEFT_BURNING_BOUNDARY) x = PlayState.LEFT_BURNING_BOUNDARY;
-        if (x > PlayState.RIGHT_BURNING_BOUNDARY) x = PlayState.RIGHT_BURNING_BOUNDARY;
-        if (y < PlayState.TOP_BURNING_BOUNDARY) y = PlayState.TOP_BURNING_BOUNDARY;
-        if (y > PlayState.BOTTOM_BURNING_BOUNDARY) y = PlayState.BOTTOM_BURNING_BOUNDARY;
 
         if (FlxG.mouse.justPressed()) {
-            PlayState.knifeManager.fire(x, y);
+            PlayState.bulletManager.fire(x, y);
         }
 
         if (FlxG.mouse.x < x) facing = FlxObject.LEFT;
